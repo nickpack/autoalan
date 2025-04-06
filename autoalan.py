@@ -47,7 +47,6 @@ def chat_loop():
                 time.sleep(delay)
                 message = random.choice(quotes)
                 pyautogui.write(message, interval=0.05)
-                pyautogui.write(message)
                 pyautogui.press('enter')
 
                 print(f"Sent: {message}")
